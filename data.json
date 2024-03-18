@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/hVFB20T/first-aid-kit-with-pills-top-view-dark-wooden-background.jpg",
+    "title": "Comprehensive First Aid Kit",
+    "category": "Medical Supplies",
+    "amount": "$75.00",
+    "description": "A comprehensive first aid kit with a variety of medical supplies for emergencies."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/31RbJnq/mathurin-napoly-matnapo-Ma-Ksx8-JNbi-I-unsplash.jpg",
+    "title": "Essential Medicine Bundle",
+    "category": "Medical Supplies",
+    "amount": "$40.00",
+    "description": "An essential medicine bundle containing various medications for common ailments."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/ZcpqTTM/anton-8q-U8-X1zkv-I-unsplash.jpg",
+    "title": "Disposable Protective Gloves",
+    "category": "Life-Saving Equipment",
+    "amount": "$15.00",
+    "description": "Disposable protective gloves for personal safety and hygiene."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/5Mpypvt/brett-jordan-m-Pk-TQZq9-Ork-unsplash.jpg",
+    "title": "Antiseptic Solution",
+    "category": "Medical Supplies",
+    "amount": "$10.00",
+    "description": "Antiseptic solution for cleaning and disinfecting wounds and cuts."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/hs8mtQK/christine-sandu-jw-Wt-Zrm67-VI-unsplash.jpg",
+    "title": "Pain Relief Medication Pack",
+    "category": "Medications",
+    "amount": "$20.00",
+    "description": "A pack of pain relief medications to alleviate common aches and pains."
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/fnT4F2F/chuttersnap-5v9-S6-Rw02-Lw-unsplash.jpg",
+    "title": "Emergency Oxygen Kit",
+    "category": "Life-Saving Equipment",
+    "amount": "$100.00",
+    "description": "Emergency oxygen kit for providing supplemental oxygen in critical situations."
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/NnNq2zC/diana-polekhina-Sw-Wj-Cb-IIo-FE-unsplash.jpg",
+    "title": "Assorted Bandages Pack",
+    "category": "Medical Supplies",
+    "amount": "$12.00",
+    "description": "An assorted pack of bandages for covering and protecting wounds."
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/K9qQ6Qh/edgar-soto-ia-HZUC69-YHA-unsplash.jpg",
+    "title": "Digital Thermometer",
+    "category": "Medical Supplies",
+    "amount": "$18.00",
+    "description": "Digital thermometer for measuring body temperature accurately."
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/YhB753x/freestocks-nss2e-Rz-Qwgw-unsplash.jpg",
+    "title": "Cold and Flu Medicine Set",
+    "category": "Medical Supplies",
+    "amount": "$25.00",
+    "description": "A set of cold and flu medicines to relieve symptoms and boost immunity."
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/Ht6y1gR/jievani-weerasinghe-q-Q11-F5c3y-Xs-unsplash.jpg",
+    "title": "Medical Face Masks (Pack of 50)",
+    "category": "Life-Saving Equipment",
+    "amount": "$50.00",
+    "description": "A pack of 50 medical face masks for respiratory protection."
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/Q99xDbC/mockup-graphics-i1iq-QRLULlg-unsplash.jpg",
+    "title": "Blood Pressure Monitor",
+    "category": "Life-Saving Equipment",
+    "amount": "$50.00",
+    "description": "Blood pressure monitor for measuring and monitoring blood pressure levels."
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/R6jmHgC/supliful-supplements-on-demand-AYJV-u-VBAv4-unsplash.jpg",
+    "title": "Vitamin Supplement Pack",
+    "category": "Medical Supplies",
+    "amount": "$15.00",
+    "description": "A pack of vitamin supplements to support overall health and well-being."
+  }
+]
