@@ -38,6 +38,12 @@ async function run() {
     const suppliesCollection = client.db("assignment").collection("supplies");
     const commentCollection = client.db("assignment").collection("comments");
     const donationCollection = client.db("assignment").collection("donations");
+    const volunteerCollection = client
+      .db("assignment")
+      .collection("volunteers");
+    const testimonialCollection = client
+      .db("assignment")
+      .collection("testimonials");
 
     // User Registration
     app.post("/api/v1/register", async (req, res) => {
@@ -186,6 +192,38 @@ async function run() {
     app.post("/create-donation", async (req, res) => {
       const donationData = req.body;
       const result = await donationCollection.insertOne(donationData);
+      res.status(200).send(result);
+    });
+
+    app.get("/volunteers", async (req, res) => {
+      try {
+        const result = await volunteerCollection.find().toArray();
+        res.status(200).send(result);
+      } catch (error) {
+        console.error("Error:", error);
+        res.status(500).send({ message: "Internal server error" });
+      }
+    });
+
+    app.post("/create-volunteer", async (req, res) => {
+      const donationData = req.body;
+      const result = await volunteerCollection.insertOne(donationData);
+      res.status(200).send(result);
+    });
+
+    app.get("/testimonials", async (req, res) => {
+      try {
+        const result = await testimonialCollection.find().toArray();
+        res.status(200).send(result);
+      } catch (error) {
+        console.error("Error:", error);
+        res.status(500).send({ message: "Internal server error" });
+      }
+    });
+
+    app.post("/create-testimonial", async (req, res) => {
+      const donationData = req.body;
+      const result = await testimonialCollection.insertOne(donationData);
       res.status(200).send(result);
     });
 
